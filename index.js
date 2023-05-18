@@ -1,5 +1,5 @@
-import fs from 'fs';
-import { globSync } from 'glob';
+const fs = require('fs');
+const { globSync } = require('glob');
 
 /**
  * @typedef { Object } PathConfig
@@ -18,7 +18,7 @@ import { globSync } from 'glob';
  * @param { PathConfig[] } pathsConfig
  * @return {{name: string, configureServer(server): void}}
  */
-export default function autoIndexPlugin(pathsConfig) {
+module.exports = function autoIndexPlugin(pathsConfig) {
   return {
     name: 'auto-index',
     configureServer(server) {

@@ -1,0 +1,23 @@
+{
+  "name": "vite-plugin-auto-index",
+  "version": "1.0.0",
+  "description": "Automatically generate and update an index.js file in each specified path",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leviat-tech/vite-plugin-auto-index.git"
+  },
+  "keywords": [
+    "vite",
+    "vite-plugin"
+  ],
+  "author": "Dan Storey <danielstorey@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/leviat-tech/vite-plugin-auto-index#readme",
+  "dependencies": {
+    "glob": "^10.2.5"
+  }
+}
